@@ -36,7 +36,7 @@ export default function UpdateChar (props){
                 </div>
                 <textarea rows='10' required ref={bioInputRef}></textarea>
                 <div className={classes.btnBox}>
-                    <button>Add character</button>
+                    <button>Update character</button>
                 </div>
             </form>
         </div>
