@@ -1,0 +1,36 @@
+.element{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: 1rem 0;
+    background-color:#FFECBD;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #4D7591;
+    max-width: max-content;
+}
+.text{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.text img{
+    max-width: 450px;
+    width: 450px;
+    height: 450px;
+    max-height: 450px;
+}
+.buttonBox{
+    padding: 1.5rem;
+    text-align: center;
+}
+.buttonBox button{
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+.buttonBox button:hover{
+    background-color: #4D7591;
+}

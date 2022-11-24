@@ -1,0 +1,15 @@
+.container{
+}
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+@media screen  and (max-width:900px) {
+    .list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
